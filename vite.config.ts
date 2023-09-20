@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       "/api": {
-        target: "http://localhost:5000",
+        target: "https://back-for-seconds-backend.onrender.com/",
         changeOrigin: true,
       },
     },
