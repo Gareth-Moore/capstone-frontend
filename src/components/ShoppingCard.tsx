@@ -35,7 +35,7 @@ const ShoppingCard = () => {
 
   return (
     <>
-      <Header title={"Shopping List"} image="cart.png"></Header>
+      <Header title={"Shopping List"} image="/cart.png"></Header>
       <SearchBar handleSubmit={handleSubmit} />
       <ContainerBlank display={"flex"}>
         <Grid

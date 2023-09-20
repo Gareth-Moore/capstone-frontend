@@ -274,7 +274,7 @@ const UploadRecipe = () => {
 
   return (
     <Box mb={5}>
-      <Header title="Create your own recipe!" image={"logo.png"} />
+      <Header title="Create your own recipe!" image={"/logo.png"} />
       <ContainerWhite
         display="block"
         width={{ mdW: "760", lgW: "900", xlW: "900" }}

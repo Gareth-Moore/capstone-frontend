@@ -58,7 +58,7 @@ const LoginSceen = () => {
     <Box
       width="100%"
       height="calc(100vh - 133px)"
-      backgroundImage="url('./src/assets/background-hero.jpg')"
+      backgroundImage="url('/background-hero.jpg')"
       backgroundPosition="center"
       backgroundSize="cover"
       backgroundRepeat="no-repeat"

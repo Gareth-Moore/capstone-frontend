@@ -42,7 +42,7 @@ const SearchRecipes = () => {
 
   return (
     <>
-      <Header title={"Back for Seconds?"} image="logo.png" />
+      <Header title={"Back for Seconds?"} image="/logo.png" />
       <Text textAlign={"center"} w={"90%"} mx="auto">
         Search for any recipes by name, tag or ingredient
       </Text>

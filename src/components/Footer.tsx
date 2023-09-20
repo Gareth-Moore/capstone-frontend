@@ -11,7 +11,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonVcardFill } from "react-icons/bs";
 
 const Logo = () => {
-  return <Image src={"src/assets/logo.png"} w="48px" />;
+  return <Image src={"/logo.png"} w="48px" />;
 };
 
 export default function Footer() {

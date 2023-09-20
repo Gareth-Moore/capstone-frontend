@@ -43,9 +43,9 @@ const DisplayCuisines = () => {
   return (
     <VStack>
       {cuisine ? (
-        <Header title={cuisine + " Cuisine"} image={`../assets/logo.png`} />
+        <Header title={cuisine + " Cuisine"} image={`/logo.png`} />
       ) : (
-        <Header title={"Back for seconds?"} image={"logo.jpg"} />
+        <Header title={"Back for seconds?"} image={"/logo.png"} />
       )}
 
       <BasicCardGrid isLoading={isLoading}>

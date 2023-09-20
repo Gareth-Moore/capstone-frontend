@@ -21,121 +21,121 @@ const Cuisines = () => {
   const cuisines = [
     {
       cuisine: "Eastern European",
-      image: "./src/assets/eastern european.jpg",
+      image: "/eastern european.jpg",
       description:
         "Eastern European cuisine: Hearty dishes & rich flavors embody the history & traditions of diverse cultures across the region.",
     },
     {
       cuisine: "European",
-      image: "./src/assets/european.jpg",
+      image: "/european.jpg",
       description:
         "European cuisine: A tapestry of flavors, techniques & ingredients from various countries, reflecting the continent's culinary diversity.",
     },
     {
       cuisine: "French",
-      image: "./src/assets/french.jpg",
+      image: "/french.jpg",
       description:
         "French cuisine: Elegance meets indulgence, showcasing culinary artistry, delicate flavors & timeless classics from across France.",
     },
     {
       cuisine: "German",
-      image: "./src/assets/german.jpg",
+      image: "/german.jpg",
       description:
         "German cuisine: Robust sausages, hearty breads & savory dishes celebrate centuries-old traditions & regional specialties.",
     },
     {
       cuisine: "Greek",
-      image: "./src/assets/greek.jpg",
+      image: "/greek.jpg",
       description:
         "Greek cuisine: Sun-soaked flavors & wholesome ingredients harmonize in dishes that embody Mediterranean vibrancy & cultural heritage.",
     },
     {
       cuisine: "Indian",
-      image: "./src/assets/indian.jpg",
+      image: "/indian.jpg",
       description:
         "Indian cuisine: A symphony of spices, colors & aromas tantalize the senses, reflecting a rich tapestry of regional culinary traditions.",
     },
     {
       cuisine: "Irish",
-      image: "./src/assets/irish.jpg",
+      image: "/irish.jpg",
       description:
         "Irish cuisine: From hearty stews to fresh seafood, Ireland's dishes are a reflection of its lush landscapes & warm hospitality.",
     },
     {
       cuisine: "Italian",
-      image: "./src/assets/italian.jpg",
+      image: "/italian.jpg",
       description:
         "Italian cuisine: Time-honored recipes & artisanal ingredients create soul-satisfying dishes that celebrate family & conviviality.",
     },
     {
       cuisine: "Japanese",
-      image: "./src/assets/japanese.jpg",
+      image: "/japanese.jpg",
       description:
         "Japanese cuisine: A delicate balance of tradition & innovation, with sublime flavors & meticulous presentation capturing the essence of Japan.",
     },
     {
       cuisine: "Jewish",
-      image: "./src/assets/jewish.jpg",
+      image: "/jewish.jpg",
       description:
         "Jewish cuisine: Culinary history & religious traditions intertwine, resulting in dishes rich in symbolism, flavor & cultural significance.",
     },
     {
       cuisine: "Korean",
-      image: "./src/assets/korean.jpg",
+      image: "/korean.jpg",
       description:
         "Korean cuisine: Harmony of bold spices, pickled delights & umami-rich ingredients reflects the dynamic spirit of South Korea.",
     },
     {
       cuisine: "Latin American",
-      image: "./src/assets/latin american.jpg",
+      image: "/latin american.jpg",
       description:
         "Latin American cuisine: A fiesta of flavors from across the Americas, blending indigenous ingredients & colonial influences in a vibrant culinary tapestry.",
     },
     {
       cuisine: "Mediterranean",
-      image: "./src/assets/mediterranean.jpg",
+      image: "/mediterranean.jpg",
       description:
         "Mediterranean cuisine: Bountiful produce, olive oil & wholesome ingredients unite in a heart-healthy culinary journey across the Mediterranean region.",
     },
     {
       cuisine: "Mexican",
-      image: "./src/assets/mexican.jpg",
+      image: "/mexican.jpg",
       description:
         "Mexican cuisine: Spicy, colorful & festive, Mexico's dishes showcase ancient traditions & complex flavors rooted in Mesoamerican heritage.",
     },
     {
       cuisine: "Middle Eastern",
-      image: "./src/assets/middle eastern.jpg",
+      image: "/middle eastern.jpg",
       description:
         "Middle Eastern cuisine: A tapestry of spices, grains & grilled delights, reflecting the warmth, generosity & hospitality of the region.",
     },
     {
       cuisine: "Nordic",
-      image: "./src/assets/nordic.jpg",
+      image: "/nordic.jpg",
       description:
         "Nordic cuisine: Clean, minimalist flavors inspired by nature's bounty, capturing the essence of Scandinavian landscapes & traditions.",
     },
     {
       cuisine: "Southern",
-      image: "./src/assets/southern.jpg",
+      image: "/southern.jpg",
       description:
         "Southern cuisine: Comforting soul food with deep roots, showcasing a mix of flavors, textures & hospitality from the American South.",
     },
     {
       cuisine: "Spanish",
-      image: "./src/assets/spanish.jpg",
+      image: "/spanish.jpg",
       description:
         "Spanish cuisine: Bold and vibrant flavors, tapas, and regional specialties paint a culinary portrait of Spain's diverse landscapes and cultures.",
     },
     {
       cuisine: "Thai",
-      image: "./src/assets/thai.jpg",
+      image: "/thai.jpg",
       description:
         "Thai cuisine: A harmonious symphony of sweet, sour, spicy & savory, capturing Thailand's rich culinary heritage & aromatic ingredients.",
     },
     {
       cuisine: "Vietnamese",
-      image: "./src/assets/vietnamese.jpg",
+      image: "/vietnamese.jpg",
       description:
         "Vietnamese cuisine: Fresh herbs, balanced flavors & regional diversity create dishes that tell the story of Vietnam's rich history and culture.",
     },
@@ -145,7 +145,7 @@ const Cuisines = () => {
     <>
       <Header
         title={"Cuisines from around the world"}
-        image={"logo.png"}
+        image={"/logo.png"}
       ></Header>
       <Grid
         w={"fit-content"}

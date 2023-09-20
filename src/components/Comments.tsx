@@ -116,7 +116,7 @@ const Comments = () => {
           </ContainerWhite>
         </Box>
       ) : (
-        <Header image={"logo.png"} title={"Please select a recipe!"}></Header>
+        <Header image={"/logo.png"} title={"Please select a recipe!"}></Header>
       )}
     </>
   );

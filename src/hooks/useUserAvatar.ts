@@ -13,9 +13,7 @@ const useUserAvatar = () => {
       });
       dispatch(setImage({ myFile: res.data.myFile, userId: id }));
     } catch (error: any) {
-      dispatch(
-        setImage({ myFile: "src/assets/blank-profile.png", userId: "" })
-      );
+      dispatch(setImage({ myFile: "/blank-profile.png", userId: "" }));
       console.log(error.message);
     }
   };

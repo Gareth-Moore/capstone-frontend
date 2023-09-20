@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  userImage: { myFile: "src/assets/blank-profile.png", userId: "" },
+  userImage: { myFile: "/blank-profile.png", userId: "" },
 };
 
 const imageSlice = createSlice({
