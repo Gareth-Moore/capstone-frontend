@@ -102,7 +102,7 @@ export default function WithSubnavigation() {
             color={useColorModeValue("gray.800", "white")}
           >
             <RouterLink to="/">
-              <Image src="src/assets/logo.png" w={"48px"} />
+              <Image src="/logo.png" w={"48px"} />
             </RouterLink>
           </Text>
 
