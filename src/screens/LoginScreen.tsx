@@ -45,7 +45,7 @@ const LoginSceen = () => {
         email,
         password,
       }).unwrap();
-
+      console.log(res);
       dispatch(setCredentials({ ...res }));
       await fetchUserAvatar(res._id);
       navigate("/");

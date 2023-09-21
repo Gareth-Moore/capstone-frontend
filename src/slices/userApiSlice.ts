@@ -1,8 +1,9 @@
 import { apiSlice } from "./apiSlice.ts";
 
-const USERS_URL = "/api/users";
-const COMMENTS_URL = "/api/comments";
-const SHOPPINGLIST_URL = "/api/shopping-list";
+const BACKEND_URL = "https://back-for-seconds-backend.onrender.com";
+const USERS_URL = `${BACKEND_URL}/api/users`;
+const COMMENTS_URL = `${BACKEND_URL}/api/comments`;
+const SHOPPINGLIST_URL = `${BACKEND_URL}/api/shopping-list`;
 
 export const usersApiSlice = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
