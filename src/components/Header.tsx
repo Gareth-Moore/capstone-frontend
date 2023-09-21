@@ -16,7 +16,7 @@ const Header = ({ image, title }: Props) => {
         {title && title}
       </Heading>
       <Image
-        src={`/src/assets/${image && image}`}
+        src={`/${image && image}`}
         w={{ base: "96px", lg: "128px" }}
         mt={5}
         mb={10}
